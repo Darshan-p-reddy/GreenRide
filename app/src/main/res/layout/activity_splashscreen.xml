@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splashscreen">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="400dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/anywhere_you_are" />
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="329dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/aclonica"
+        android:text="GreenRides"
+        android:textAlignment="center"
+        android:textColor="#025C27"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/image"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="152dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/acme"
+        android:text="Developed By\nDarshan P Reddy"
+        android:textAlignment="center"
+        android:textColor="#0A8C40"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Slogan"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/Slogan"
+        android:layout_width="251dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Anywhere and Anytime"
+        android:textAlignment="center"
+        android:textColor="#0AA54A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/logo"
+        app:layout_constraintStart_toStartOf="@+id/logo"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

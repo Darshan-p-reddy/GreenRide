@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<group
+    android:id="@+id/group1">
+    <item
+        android:icon="@drawable/profile_user_svgrepo_com"
+        android:id="@+id/naveShareRides"
+        android:title="Profile" />
+
+    <item
+        android:icon="@drawable/round_payments_24"
+        android:id="@+id/naveMenu"
+        android:title="Payments" />
+
+
+    <item
+        android:icon="@drawable/round_history_24"
+        android:id="@+id/naveRides"
+        android:title="My Rides"/>
+
+</group>
+<group
+    android:id="@+id/group2">
+    <item
+    android:icon="@drawable/baseline_help_center_24"
+    android:id="@+id/naveAbout"
+    android:title="About us"/>
+
+    <item
+        android:icon="@drawable/round_headset_mic_24"
+        android:id="@+id/naveHelp"
+        android:title="Contact us"/>
+
+    <item
+        android:icon="@drawable/baseline_logout_24"
+        android:id="@+id/naveLogout"
+        android:title="Logout"/>
+</group>
+
+
+</menu>

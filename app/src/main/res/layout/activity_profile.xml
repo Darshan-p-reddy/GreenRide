@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <EditText
+        android:id="@+id/nametext"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/edittextshape"
+
+        android:drawableLeft="@drawable/user_svgrepo_com"
+        android:drawablePadding="15sp"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/amaranth"
+        android:hint="Name"
+        android:paddingLeft="15sp"
+        android:textColorHint="#C51162"
+        app:layout_constraintEnd_toEndOf="@+id/profileimage4"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/profileimage4"
+        app:layout_constraintTop_toBottomOf="@+id/profileimage4" />
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittextshape"
+
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="15sp"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/amaranth"
+        android:hint="Email"
+        android:paddingLeft="15sp"
+        android:textColorHint="#C51162"
+        app:layout_constraintEnd_toEndOf="@+id/nametext"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/nametext"
+        app:layout_constraintTop_toBottomOf="@+id/nametext" />
+
+    <EditText
+        android:id="@+id/phnotext"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextshape"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:drawableLeft="@drawable/phone_number_svgrepo_com"
+        android:drawablePadding="15sp"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/amaranth"
+        android:hint="Phone.no"
+        android:paddingLeft="15sp"
+        android:textColorHint="#C51162"
+        app:layout_constraintEnd_toEndOf="@+id/emailtext"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/emailtext"
+        app:layout_constraintTop_toBottomOf="@+id/emailtext" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileimage4"
+        android:layout_width="190dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="52dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_user_svgrepo_com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/profile_user_svgrepo_com" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="158dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="32dp"
+        android:text="Save"
+        android:onClick="insert_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

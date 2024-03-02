@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Ride History Title -->
+    <TextView
+        android:id="@+id/text_ride_history_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Ride History"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="@color/green"
+        android:textColor="@android:color/white" />
+
+    <!-- Ride History List -->
+    <ListView
+        android:id="@+id/list_ride_history"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:clipToPadding="false"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="@android:color/white"
+        android:elevation="2dp"
+        android:scrollbars="none"
+        android:overScrollMode="never" />
+
+</LinearLayout>

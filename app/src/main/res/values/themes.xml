@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GreenRide" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/Green</item>
+        <item name="colorPrimaryVariant">@color/Green</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.GreenRide" parent="Base.Theme.GreenRide" />
+<style name="DialoAnimation">
+    <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+    <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+
+</style>
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="background">@android:color/transparent</item>
+    </style>
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+</resources>
+

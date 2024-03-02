@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86E389"
+  >
+
+    <EditText
+        android:id="@+id/droploc_text"
+        android:layout_width="413dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_white_button"
+        android:drawableLeft="@drawable/drop_pin_svg"
+        android:drawablePadding="10sp"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:hint="drop location...."
+        android:paddingStart="15dp"
+        android:paddingLeft="15sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textAlignment="textStart"
+        android:textColorHint="#805B67"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentLocation" />
+
+    <EditText
+        android:id="@+id/currentLocation"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_white_button"
+        android:drawableLeft="@drawable/mappin_svg"
+        android:drawablePadding="10sp"
+        android:elevation="10dp"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:hint="Pickup location...."
+        android:paddingStart="15dp"
+        android:paddingLeft="15sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textAlignment="textStart"
+        android:textColorHint="#805B67"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/conformbutton"
+        android:layout_width="206dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="148dp"
+        android:text="Confirm Booking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/droploc_text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

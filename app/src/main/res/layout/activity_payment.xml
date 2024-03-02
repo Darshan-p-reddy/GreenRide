@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_payment_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Payment Methods Section -->
+    <TextView
+        android:id="@+id/text_payment_methods_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Methods"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <!-- Payment Methods -->
+    <TextView
+        android:id="@+id/text_payment_methods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Credit Card ending in 1234\nPayPal: example@example.com"
+        android:padding="16dp" />
+
+    <!-- Add/Update Payment Methods Section -->
+    <TextView
+        android:id="@+id/text_add_update_payment_methods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add or Update Payment Methods"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <!-- Secure Payment Gateway Section -->
+    <TextView
+        android:id="@+id/text_secure_payment_gateway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Secure Payment Gateway"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <!-- Payment History Section -->
+    <TextView
+        android:id="@+id/text_payment_history_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment History"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <!-- Payment History List -->
+    <ListView
+        android:id="@+id/list_payment_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:padding="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsFragment">
+
+    <!-- fragment_about_us.xml -->
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewMission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mission Statement"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We strive to provide innovative solutions to our customers' needs while maintaining the highest level of quality and integrity."
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewVision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vision Statement"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our vision is to become the leading provider of sustainable transportation solutions, making a positive impact on communities and the environment."
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/textViewHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company History"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GreenRide was founded in 2015 with the goal of revolutionizing the transportation industry. Since then, we have grown into a trusted partner for individuals and businesses alike, offering reliable and eco-friendly transportation solutions."
+                android:textSize="16sp"/>
+
+            <!-- Add more TextViews for Core Values, Key Team Members, Awards, Achievements, etc. -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <!-- Define the map padding dimension -->
+    <dimen name="map_padding">32dp</dimen>
+</resources>
